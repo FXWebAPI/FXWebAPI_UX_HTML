@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+
+    <title>FX</title>
+
+    <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+    <!--endbuild-->
+
+
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+  <div class="page page-dashboard">
+    <div class="row h-100">
+      <div class="col-lg-2 sidebar">
+        <div class="sidebar-sticky h-100">
+          <h1 class="title-sidebar">FX Bank Trader</h1>
+          <div class="sidebar-sticky__nav">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="dashboard-tab" data-toggle="tab" href="#dashboard" role="tab" aria-controls="dashboard" aria-selected="true">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="fx-tab" data-toggle="tab" href="#fx" role="tab" aria-controls="fx" aria-selected="false">FX Spot/Forward</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="order-tab" data-toggle="tab" href="#order" role="tab" aria-controls="order" aria-selected="false">FX order</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="deal-tab" data-toggle="tab" href="#deal" role="tab" aria-controls="deal" aria-selected="false">Deal Blotter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <main class="main-content col-lg-10">
+
+        <div class="tab-content" id="myTabContent">
+
+          <div class="tab-pane fade show active" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
+            <h2>Dashboard</h2>
+          </div>
+
+          <div class="tab-pane fade" id="fx" role="tabpanel" aria-labelledby="fx-tab">
+            <h2>FX Spot/Forward</h2>
+          </div>
+
+          <div class="tab-pane fade" id="order" role="tabpanel" aria-labelledby="order-tab">
+            test
+          </div>
+
+          <div class="tab-pane fade" id="deal" role="tabpanel" aria-labelledby="deal-tab">
+            test
+          </div>
+
+
+
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+
+
+  <!--build:js js/main.min.js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <!-- endbuild -->
+
+</body>
+</html>

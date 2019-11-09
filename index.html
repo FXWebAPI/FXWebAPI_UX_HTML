@@ -1,10 +1,73 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+
+    <title>FX</title>
+
+    <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+    <!--endbuild-->
+
+
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
 <body>
 
-<h1>My First Heading</h1>
 
-<p>My first paragraph.</p>
+  <div class="page page-login">
+    <div class="row h-100">
+<!-- 
+      <div class="language-select">
+
+      </div> -->
+
+      <div class="col-lg-6 page-login__title h-100">
+        <h1>FX Bank Trader</h1>
+      </div>
+
+      <div class="col-lg-6 page-login__panel h-100">
+        <div class="content">
+          <h3>Login to Trade</h3>
+          <div class="form-login">
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label class="placeholder" for="exampleInputEmail1">Email or user name</label>
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1">
+                <label class="placeholder" for="exampleInputPassword1">Password</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">I agree on Terms and Conditions</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+              <div class="form-forgotpassword">
+                <a href="#">Forgot password?</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+  <!--build:js js/main.min.js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <!-- endbuild -->
 
 </body>
 </html>
