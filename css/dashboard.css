@@ -1,0 +1,31 @@
+/**
+ * Breakpoint modules
+ *
+ * How to use:
+ * @import breakpoint('desktop') {...}
+ *
+ */
+.sidebar-sticky {
+  background: #F7F7F7; }
+  .sidebar-sticky .title-sidebar {
+    display: none; }
+    @media screen and (min-width: 992px) {
+      .sidebar-sticky .title-sidebar {
+        display: block;
+        font-size: 24px;
+        text-align: center;
+        padding: 50px 0 100px; } }
+  .sidebar-sticky__nav .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+
+.main-content {
+  padding: 100px; }

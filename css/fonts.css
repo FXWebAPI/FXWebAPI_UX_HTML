@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Pangram';
+  src: url("../fonts/Pangram-Regular.eot");
+  src: url("../fonts/Pangram-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Pangram-Regular.woff2") format("woff2"), url("../fonts/Pangram-Regular.woff") format("woff"), url("../fonts/Pangram-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Pangram';
+  src: url("../fonts/Pangram-Black.eot");
+  src: url("../fonts/Pangram-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Pangram-Black.woff2") format("woff2"), url("../fonts/Pangram-Black.woff") format("woff"), url("../fonts/Pangram-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Pangram';
+  src: url("../fonts/Pangram-Medium.eot");
+  src: url("../fonts/Pangram-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Pangram-Medium.woff2") format("woff2"), url("../fonts/Pangram-Medium.woff") format("woff"), url("../fonts/Pangram-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Pangram';
+  src: url("../fonts/Pangram-ExtraBold.eot");
+  src: url("../fonts/Pangram-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Pangram-ExtraBold.woff2") format("woff2"), url("../fonts/Pangram-ExtraBold.woff") format("woff"), url("../fonts/Pangram-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Pangram';
+  src: url("../fonts/Pangram-Light.eot");
+  src: url("../fonts/Pangram-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Pangram-Light.woff2") format("woff2"), url("../fonts/Pangram-Light.woff") format("woff"), url("../fonts/Pangram-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Pangram';
+  src: url("../fonts/Pangram-ExtraLight.eot");
+  src: url("../fonts/Pangram-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Pangram-ExtraLight.woff2") format("woff2"), url("../fonts/Pangram-ExtraLight.woff") format("woff"), url("../fonts/Pangram-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Pangram';
+  src: url("../fonts/Pangram-Bold.eot");
+  src: url("../fonts/Pangram-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Pangram-Bold.woff2") format("woff2"), url("../fonts/Pangram-Bold.woff") format("woff"), url("../fonts/Pangram-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }

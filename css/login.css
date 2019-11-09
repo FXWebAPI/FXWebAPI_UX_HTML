@@ -1,0 +1,79 @@
+/**
+ * Breakpoint modules
+ *
+ * How to use:
+ * @import breakpoint('desktop') {...}
+ *
+ */
+.page-login__title {
+  display: none; }
+  @media screen and (min-width: 992px) {
+    .page-login__title {
+      background: #146AFF;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
+  .page-login__title h1 {
+    margin: 0;
+    font-size: 60px;
+    color: #fff;
+    opacity: 0.25; }
+
+.page-login__panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .page-login__panel .content {
+    max-width: 500px;
+    width: 100%; }
+    .page-login__panel .content h3 {
+      margin-bottom: 55px;
+      font-size: 32px;
+      font-weight: 400; }
+    .page-login__panel .content .form-login .form-group {
+      position: relative;
+      margin-bottom: 30px; }
+      .page-login__panel .content .form-login .form-group label.placeholder {
+        position: absolute;
+        top: 0;
+        -webkit-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s; }
+      .page-login__panel .content .form-login .form-group input.form-control:focus + label,
+      .page-login__panel .content .form-login .form-group input.form-control.has-value + label {
+        top: -20px !important;
+        font-size: 12px;
+        color: #949494; }
+    .page-login__panel .content .form-login .form-check {
+      margin-top: 30px; }
+    .page-login__panel .content .form-login .btn {
+      width: 100%;
+      margin-top: 30px;
+      height: 48px;
+      font-weight: 300;
+      font-size: 16px;
+      cursor: pointer; }
+    .page-login__panel .content .form-login .form-forgotpassword a {
+      font-size: 14px;
+      color: #949494;
+      display: block;
+      margin-top: 20px;
+      font-weight: 400;
+      text-decoration: none;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s; }
+      .page-login__panel .content .form-login .form-forgotpassword a:hover {
+        color: #146AFF; }
